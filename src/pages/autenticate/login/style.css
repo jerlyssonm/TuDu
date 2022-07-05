@@ -1,0 +1,69 @@
+.box-login{
+    width: 100vw;
+    max-width: 400px;
+    min-width: 130px;
+    height: 85vh;
+    border-radius: 30px 30px 0 0;
+    background-color: rgb(235, 244, 253);
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+.box-login span{    
+    position: relative;
+    top: 25px;
+}
+form {
+    text-align: left;
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+form a{
+    cursor: pointer;
+    margin: 0 auto;
+    text-align: center;
+}
+form h1{
+    margin: 1.5em 0;
+}
+form label{
+    font-size: .7em;
+
+}
+form input{
+    background-color: rgb(235, 244, 253);
+    border: none;
+    border-bottom: 1px solid rgb(160, 160, 160);
+    margin-bottom: 1em;
+}
+form input:focus{
+    padding: .7em;
+}
+.box-btn{
+    margin: 1em 0 .5em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box-btn button{
+    background-color: #1A55B4;
+    color: white;
+    font-size: .7em;
+    border: none;
+    padding: .9em;
+    border-radius: 5px;
+    width: 100%;
+    margin: 1em 0 1em 0;
+}
+.box-btn a{
+    margin: 2em 0 1em 0;
+    font-size: .7em;
+    text-decoration: none;
+}
+@media (min-width: 400px)  {
+    .box-login{
+        margin-left: calc(50% - 200px);
+    }
+}
