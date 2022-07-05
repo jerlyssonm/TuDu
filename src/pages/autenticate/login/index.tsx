@@ -13,7 +13,7 @@ const Login = () =>{
                 <input type="password" />
                 <div className='box-btn'>
                     <button>Entrar</button>
-                    <button>Entrarcom google</button>
+                    <button>Entrar com google</button>
                     <Link to="/register">Não tenho conta</Link>
                 </div>
             </form>

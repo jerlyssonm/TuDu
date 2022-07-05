@@ -9,13 +9,14 @@
     bottom: 0;
     text-align: center;
 }
-.box-login span{    
-    position: relative;
-    top: 25px;
+.box-login span{
+    position: absolute;
+    left: 150px;
+    bottom: 15px;
 }
 form {
     text-align: left;
-    width: 80vw;
+    width: 80%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -56,6 +57,7 @@ form input:focus{
     border-radius: 5px;
     width: 100%;
     margin: 1em 0 1em 0;
+    cursor: pointer;
 }
 .box-btn a{
     margin: 2em 0 1em 0;
