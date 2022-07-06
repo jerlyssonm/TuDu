@@ -6,7 +6,7 @@ const Register = () =>{
         <div className='box-register'>            
             <form>
                 <Link to="/">__</Link>
-                <h2>Cadastrar</h2>
+                <h1>Cadastrar</h1>
                 <label htmlFor="">Nome</label>
                 <input type="text" />
                 <label htmlFor="">E-mail</label>
@@ -16,12 +16,13 @@ const Register = () =>{
                 <label htmlFor="">Repetir senha</label>
                 <input type="password" />
                 <div className='box-btn'>
-                    <button>Cadastrar</button>
+                    <button >Cadastrar</button>
                     <button>Continuar com Google</button>
                     <Link to="/login">já tenho conta</Link>
                 </div>
             </form>
-            <span>_____________</span>
+            <div className='border-footer'> </div>
+
         </div>
     )
 }

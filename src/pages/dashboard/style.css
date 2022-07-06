@@ -1,0 +1,39 @@
+.box-dashboard{
+    margin: 0 auto;
+    max-width: 400px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: rgb(247, 247, 247);
+}
+.box-border{
+    background-color: white;
+}
+.border{
+    width: 7em;
+    margin: .7em auto;
+    border-bottom: 2px solid black;
+}
+.menu{
+    position: relative;
+    height: 10%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu a svg {
+    height: 2em;
+    color: rgb(26, 85, 180);
+    width: 1.5em;
+}
+.menu .add{
+    top: -7px;
+    right: 1em;
+    position: absolute;
+}
+.menu .add svg{
+    width: 3.5em;
+    height: 3.5em;
+}

@@ -8,11 +8,9 @@
     position: absolute;
     bottom: 0;
     text-align: center;
-}
-.box-register span{      
-    position: absolute;
-    left: 150px;
-    bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 form {
     text-align: left;
@@ -26,8 +24,9 @@ form a{
     margin: 0 auto;
     text-align: center;
 }
-form h1{
+.box-register h1{
     margin: 1.5em 0;
+    color: var(--primary1);
 }
 form label{
     font-size: .7em;

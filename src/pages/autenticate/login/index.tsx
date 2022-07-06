@@ -17,7 +17,7 @@ const Login = () =>{
                     <Link to="/register">Não tenho conta</Link>
                 </div>
             </form>
-            <span>_____________</span>
+            <div className='border-footer'> </div>
         </div>
     )
 }

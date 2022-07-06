@@ -31,7 +31,7 @@ const ScreemHome = () => {
                 <Link to="/login">
                     <AiOutlineArrowUp/>
                 </Link>
-                <span>_____________</span>
+            <div className='border-footer'> </div>
             </button>
         </>
     );
