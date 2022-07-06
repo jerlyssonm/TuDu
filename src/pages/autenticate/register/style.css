@@ -25,7 +25,7 @@ form a{
     text-align: center;
 }
 .box-register h1{
-    margin: 1.5em 0;
+    margin: .5em 0;
     color: var(--primary1);
 }
 form label{
@@ -41,20 +41,20 @@ form input:focus{
     padding: .7em;
 }
 .box-btn{
-    margin: 1em 0 .5em 0;
+    margin: .5em 0;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .box-btn button{
-    background-color: #1A55B4;
+    background-color: var(--primary1);
+    border: none;
     color: white;
     font-size: .7em;
-    border: none;
     padding: .9em;
     border-radius: 5px;
     width: 100%;
-    margin: 1em 0 1em 0;
+    margin: .5em 0;
     cursor: pointer;
 }
 .box-btn a{

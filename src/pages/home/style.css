@@ -8,7 +8,8 @@
     color: var(--primary1);
 }
 .home-box p{
-    margin: 3em auto;
+    font-size: .8em;
+    margin: 2em auto;
     font-weight: lighter;
 }
 

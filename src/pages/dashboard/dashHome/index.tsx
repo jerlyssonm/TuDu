@@ -56,6 +56,16 @@ const DashHome =() => {
                 </div>
                 <span className='all-span'>Ver todos</span>
             </div>
+            <div className="completed">
+                <h2>CONCLUÍDO</h2>
+                <div className='task box-completed'>
+                    <input type="checkbox" checked className='check' />
+                    <div>
+                        <h6>Incrições</h6>
+                        <p>Descrição descrição descrição</p>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

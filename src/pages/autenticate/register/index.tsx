@@ -1,7 +1,12 @@
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import './style.css'
 
 const Register = () =>{
+
+    const navigate = useNavigate();
+    const handleNavigate = (link:string) =>{
+        navigate(link)
+    }
     return (
         <div className='box-register'>            
             <form>
@@ -16,7 +21,9 @@ const Register = () =>{
                 <label htmlFor="">Repetir senha</label>
                 <input type="password" />
                 <div className='box-btn'>
-                    <button >Cadastrar</button>
+                    <button onClick={()=>handleNavigate('/dashboard')}>
+                        Cadastrar 
+                    </button>
                     <button>Continuar com Google</button>
                     <Link to="/login">já tenho conta</Link>
                 </div>

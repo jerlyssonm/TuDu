@@ -12,6 +12,7 @@ h2{
     text-align: left;
     color: var(--primary1);
     font-size: .9em;
+    font-weight: 600;
     padding-left: 5px;
 }
 .head{
@@ -74,13 +75,14 @@ h2{
     width: 1.5em;
 }
 h5{
+    font-weight: 500;
     font-size: .7em;
 }
 p{
     font-size: .5em;
     color: rgb(85, 84, 84);
 }
-span{
+.all-span{
     text-align: end;
     font-size: .6em;
 }
@@ -104,16 +106,21 @@ span{
 .scroll::-webkit-scrollbar{
     display: none;
 }
-.box-progress {
-    text-align: left;
+.box-progress .all-span{
+    float: right;
 }
 
 .percent{
+    text-align: left;
     position: relative;
     width: 90px;
     height: 75px;
     border-radius: 5px;
     padding: 10px;
+}
+.percent h5{
+    font-weight: 500;
+    color: rgb(241, 241, 241);
 }
 .percent::before{
     content: "";
@@ -125,4 +132,15 @@ span{
     height: calc(100% + 15px);
     border-radius: inherit;
     z-index: -1;
+}
+.completed{
+    margin-top: .8em;
+}
+.box-completed{
+    text-align: left;
+    background: var(--secundary3);
+}
+h6{
+    color: black;
+    font-weight: 400;
 }
