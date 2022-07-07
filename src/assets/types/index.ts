@@ -5,6 +5,8 @@ export interface IChildren {
 }
 
 export interface UserContextData {
-  open: boolean
-  openClose: () => void
+  formTask: boolean
+  task: boolean
+  openCloseForm: (bool: boolean) => void
+  openCloseTask: (bool: boolean) => void
 }

@@ -7,13 +7,25 @@ export const UserContext = createContext(
 );
 
 export const UserProvider = ({ children }: IChildren) => {
-  const [open, setOpen]= useState(false)
+  const [formTask, setFormTask]= useState(false)
+  const [task, setTask]= useState(false)
 
-  function openClose (){
-      setOpen(!open)
+  function openCloseForm (bool:boolean){
+    if (bool) {
+      setFormTask(true)
+    }else {
+      setFormTask(false)
+    }
+  }
+  function openCloseTask (bool:boolean){
+    if (bool) {
+      setTask(true)
+    }else {
+      setTask(false)
+    }
   }
   return (
-    <UserContext.Provider value={{ open, openClose}}>
+    <UserContext.Provider value={{task, openCloseTask, formTask, openCloseForm}}>
       {children}
     </UserContext.Provider>
   );

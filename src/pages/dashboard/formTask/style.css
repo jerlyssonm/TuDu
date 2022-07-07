@@ -1,0 +1,59 @@
+.box-formTask{
+    /* position: absolute; */
+    /* top: 0; */
+    height: 100vh;
+}
+.box-formTask h1{
+    font-size: 1.1em;
+    margin-bottom: 1em;
+}
+.formulary{
+    width: 100vw;
+    background-color: var(--secundary3);
+    height: 80vh;
+    border-radius: 30px 30px 0 0;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.form-task{
+    gap: 1em;
+}
+.form-task a {
+    margin-bottom: 2em;
+    color: var(--primary1);
+}
+.form-input{
+    align-content: center;
+    display: flex;
+    gap: .5em;
+}
+.sub-tasks{
+    align-content: center;
+    display: flex;
+    gap: 1em;
+    opacity: 70%;
+    font-size: 1.2em;
+}
+.form-input svg{
+    width: 1.5em;
+    height: 1.5em;
+    opacity: 50%;
+}
+.form-input input{
+    width: 100%;
+    background: none;
+    outline: none;
+    border: none;
+    height: 2em;
+}
+.input-title input::placeholder{
+    font-size: 1.5em;
+    color: var(--primary1);
+}
+.box-formTask span{
+    color: var(--primary1);
+    text-align: end;
+    padding: .5em 2.3em;
+}

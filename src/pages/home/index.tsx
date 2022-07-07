@@ -1,14 +1,12 @@
 import { useRef } from 'react';
 import{ AiOutlineArrowUp } from 'react-icons/ai'
 import { Slide, SlideshowRef } from 'react-slideshow-image';
-import { useUser } from '../../context/user';
 import { Link } from 'react-router-dom';
 import 'react-slideshow-image/dist/styles.css';
 import './style.css'
 
 const ScreemHome = () => {
     const slideRef = useRef<SlideshowRef>(null)
-    const { openClose, open } = useUser()
     return (
         <>
             <Slide indicators={true} ref={slideRef}>
