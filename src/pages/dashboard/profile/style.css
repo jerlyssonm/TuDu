@@ -1,0 +1,10 @@
+.profile{
+    height: 100%;
+    width: 85%;
+    margin: 2em auto;
+}
+.profile-head img{
+    width: 4em;
+    height: 4em;
+    border: 50%;
+}

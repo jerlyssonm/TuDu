@@ -60,6 +60,7 @@ h2{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin-bottom: 2em;
 }
 .task{
     cursor: pointer;
@@ -87,15 +88,6 @@ p{
     text-align: end;
     font-size: .6em;
 }
-.type1{
-    background-color: var(--secundary1);
-}
-.type2{
-    background-color: var(--secundary2);
-}
-.type3{
-    background-color: var(--primary2);
-}
 .scroll{
     max-width: 390px;
     padding: 10px;
@@ -110,39 +102,6 @@ p{
 .box-progress .all-span{
     float: right;
 }
-
-.percent{
-    cursor: pointer;
-    text-align: left;
-    position: relative;
-    width: 90px;
-    height: 75px;
-    border-radius: 5px;
-    padding: 10px;
-}
-.percent h5{
-    font-weight: 500;
-    color: rgb(241, 241, 241);
-}
-.percent::before{
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: calc(100% + 15px);
-    height: calc(100% + 15px);
-    border-radius: inherit;
-    z-index: -1;
-}
 .completed{
     margin-top: .8em;
-}
-.box-completed{
-    text-align: left;
-    background: var(--secundary3);
-}
-h6{
-    color: black;
-    font-weight: 400;
 }

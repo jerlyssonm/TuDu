@@ -1,0 +1,65 @@
+.task{
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 10px;
+}
+.check{
+    background: none;    
+    height: 1.5em;
+    width: 1.5em;
+}
+.box-completed{
+    text-align: left;
+    background: var(--secundary3);
+    margin-bottom: 0.5em;
+}
+h6{
+    color: black;
+    font-weight: 400;
+}
+h5{
+    font-weight: 500;
+    font-size: .7em;
+}
+p{
+    font-size: .5em;
+    color: rgb(85, 84, 84);
+}
+
+.percent{
+    cursor: pointer;
+    text-align: left;
+    position: relative;
+    width: 90px;
+    height: 75px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.percent h5{
+    font-weight: 500;
+    color: rgb(241, 241, 241);
+}
+.percent::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(100% + 15px);
+    height: calc(100% + 15px);
+    border-radius: inherit;
+    z-index: -1;
+}
+.type1{
+    background-color: var(--secundary1);
+}
+.type2{
+    background-color: var(--secundary2);
+}
+.type3{
+    background-color: var(--primary2);
+}

@@ -7,12 +7,14 @@ import {
     MdSubdirectoryArrowRight,
     AiOutlinePaperClip,
 } from "react-icons/all";
+import { DB } from "../../../assets/api";
 import { useUser } from "../../../context/user";
 import "./style.css"
 
 
 const Task = ()=>{
     const { openCloseTask} = useUser()
+    // const task = DB.filter(user => user.tasks.id == id)
     return(
         <div className="task-open">
             <div className="tag-head">

@@ -1,0 +1,19 @@
+.react-calendar{
+    margin: 1em auto;
+    border-radius: 15px;
+    border: none;
+    background: none;
+}
+.planner{
+    height: 100%;
+    width: 85%;
+    margin: 2em auto 0 auto;
+}
+.p-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.p-header h1{
+    font-size: 1.1em;
+}
