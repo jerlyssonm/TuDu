@@ -10,6 +10,7 @@ export const DB = [
     "img":"",
     "name":"jerlysson",
     "email":"jerlysson@gmail.com",
+    "password": "12345",
     "tasks":[
       {
         "id":1,
@@ -78,6 +79,7 @@ export const DB = [
     "img":"",
     "name":"jerlysso",
     "email":"jerlysson@gmail.com",
+    "password": "12345",
     "tasks":[{
       "id":1,
       "title": "Desafio de Design UI/UX",
